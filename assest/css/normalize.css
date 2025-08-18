@@ -28,3 +28,7 @@ main,header,footer,div,section,article,nav,ul,figure,figcaption,a{
     --headingFont:"Ubuntu", sans-serif;
     --pgFont:"Roboto", sans-serif;
 }
+
+h1,h2,h3,h4,h5,h6{
+    font-family:var(--headingFont) !important;
+}
