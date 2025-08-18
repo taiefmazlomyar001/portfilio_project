@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    object-fit: cover;
+}
+main,header,footer,div,section,article,nav,ul,figure,figcaption,a{
+    display: flex;
+    flex-wrap: wrap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --darkGray:#1F1F1F;
+    --darkLight:#232323;
+    --whiteLight:#ECECEC;
+    --white:#ffffff;
+    --gray:#969696;
+    --gray2:#323232;
+    --black1:#1b1b1b;
+    --gray-3:#252525;
+    --headingFont:"Ubuntu", sans-serif;
+    --pgFont:"Roboto", sans-serif;
+}
