@@ -1,34 +1,63 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-img{
-    object-fit: cover;
+img {
+  object-fit: cover;
 }
-main,header,footer,div,section,article,nav,ul,figure,figcaption,a{
-    display: flex;
-    flex-wrap: wrap;
+main,
+header,
+footer,
+div,
+section,
+article,
+nav,
+ul,
+figure,
+figcaption,
+a {
+  display: flex;
+  flex-wrap: wrap;
 }
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-:root{
-    --darkGray:#1F1F1F;
-    --darkLight:#232323;
-    --whiteLight:#ECECEC;
-    --white:#ffffff;
-    --gray:#969696;
-    --gray2:#323232;
-    --black1:#1b1b1b;
-    --gray-3:#252525;
-    --headingFont:"Ubuntu", sans-serif;
-    --pgFont:"Roboto", sans-serif;
+@font-face {
+  font-family: ubunto;
+  src: url(../font/Ubuntu-Bold.ttf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto-Light.ttf);
+}
+:root {
+  --darkGray: #1f1f1f;
+  --darkLight: #232323;
+  --whiteLight: #ececec;
+  --white: #ffffff;
+  --gray: #969696;
+  --gray2: #323232;
+  --black1: #1b1b1b;
+  --gray-3: #252525;
+  --gray4:#2c2c2c;
+  --headingFont: ubunto;
+  --pgFont: roboto;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family:var(--headingFont) !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFont);
+}
+p,
+span {
+  font-family: var(--pgFont);
+}
+button {
+  all: unset;
 }
