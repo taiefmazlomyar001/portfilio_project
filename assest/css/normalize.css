@@ -1,9 +1,7 @@
 * {
   box-sizing: border-box;
 }
-li {
-  list-style: none;
-}
+j
 a {
   text-decoration: none;
 }
@@ -41,7 +39,7 @@ a {
   --gray2: #323232;
   --black1: #1b1b1b;
   --gray-3: #252525;
-  --gray4:#2c2c2c;
+  --gray4: #2c2c2c;
   --headingFont: ubunto;
   --pgFont: roboto;
 }
