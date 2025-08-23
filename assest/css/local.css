@@ -66,6 +66,13 @@
         height: 290px;
       }
     }
+    #services {
+      .row {
+        > h2 {
+          font-size: 30px;
+        }
+      }
+    }
   }
 }
 
@@ -141,6 +148,27 @@
       }
     }
   }
+  #services {
+    .row {
+      > h2 {
+        font-size: 36px;
+      }
+    }
+    .box {
+      > article {
+        width: 48%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* ____________--Portfolio_cards_____________ */
+  .Portfolio_cards {
+    > figure {
+      width: 48%;
+    }
+  }
 }
 
 @media screen and (min-width: 993px) {
@@ -211,6 +239,25 @@
       > .row {
         > div {
           width: 430px;
+        }
+      }
+    }
+    #Portfolio {
+      .row {
+        > ul {
+          height: 300px;
+        }
+      }
+    }
+    #services {
+      .row {
+        > h2 {
+          font-size: 48 px;
+        }
+      }
+      .box {
+        > article {
+          width: 31%;
         }
       }
     }
@@ -325,5 +372,12 @@
     position: fixed;
     top: 20px;
     right: 30px;
+  }
+
+  #Portfolio > .row {
+    > ul > li {
+      border: 1px solid var(--gray2);
+      border-left-width: 3px;
+    }
   }
 }

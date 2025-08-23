@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-j
+li {
+  list-style: none;
+}
 a {
   text-decoration: none;
 }
