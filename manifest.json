@@ -1,0 +1,23 @@
+
+{
+    "name": "Mmd_Akhgar",
+    "short_name": "Mohmmad",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#333",
+    "theme_color": "#222",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "assest/img/512.png",
+            "type": "image/png",
+            "sizes": "512×512",
+            "purpose": "web Design class"
+        },
+        {
+            "src": "assest/img/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
